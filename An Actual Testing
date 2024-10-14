@@ -1,1 +1,7 @@
 
+document.addEventListener("keydown", function(event) {
+    // Check if the pressed key is the spacebar (keyCode 32 or event.key === " ")
+    if (event.code === "Space") {
+        alert("You are so cute");
+    }
+});
